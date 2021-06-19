@@ -21,11 +21,17 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(getApplicationContext(), "AR button clicked.", Toast.LENGTH_SHORT).show();
             Intent intent1 = new Intent(view.getContext(),ArActivity.class);
             startActivity(intent1);
+            overridePendingTransition( R.anim.slide_in_up, R.anim.slide_out_up );
         });
 
         //on Lens button clicked
         lensBtn.setOnClickListener(view -> {
             Toast.makeText(getApplicationContext(), "Lens button clicked.", Toast.LENGTH_SHORT).show();
         });
+    }
+    public void onBackPressed() {
+        super.onBackPressed();
+        overridePendingTransition(R.anim.slide_in_up, R.anim.slide_out_up);
+        finish();
     }
 }

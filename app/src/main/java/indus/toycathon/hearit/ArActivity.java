@@ -16,4 +16,9 @@ public class ArActivity extends AppCompatActivity {
         setContentView(myWebView);
         myWebView.loadUrl("https://toycawebxr.netlify.app/final");
     }
+    public void onBackPressed() {
+        super.onBackPressed();
+        overridePendingTransition(R.anim.slide_in_up, R.anim.slide_out_up);
+        finish();
+    }
 }

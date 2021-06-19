@@ -10,12 +10,15 @@ public class IntroActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_intro);
 
         Button startBtn = (Button)findViewById(R.id.startBtn);
         startBtn.setOnClickListener(view -> {
             Intent intent = new Intent(view.getContext(), MainActivity.class);
             startActivity(intent);
+            overridePendingTransition( R.anim.slide_in_up, R.anim.slide_out_up );
+
         });
     }
 }
