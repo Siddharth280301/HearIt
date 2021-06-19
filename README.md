@@ -8,7 +8,7 @@ Toycathon 2021 - Idea Submission
 **App's Concept :**
 
 ![UI_1](/assets/hear_it_1.png)
-![UI_1](/assets/hear_it_1.png)
+![UI_2](/assets/hear_it_2.png)
 
 ----
 Team Indus :
