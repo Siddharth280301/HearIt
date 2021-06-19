@@ -45,7 +45,7 @@
                     android:layout_gravity="center"
                     app:cardCornerRadius="10dp"
                     app:contentPadding="12dp"
-                    app:cardElevation="4dp"
+                    android:elevation="2dp"
                     android:backgroundTint="@color/gray_900"
                     android:outlineAmbientShadowColor="@color/black">
                     <TextView
@@ -53,6 +53,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="start"
+                        android:textColor="@color/white"
                         android:text="@string/text_para_1"
                         android:textSize="16dp"/>
                 </com.google.android.material.card.MaterialCardView>
@@ -78,8 +79,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     app:cardCornerRadius="10dp"
-                    android:padding="4dp"
-                    android:elevation="4dp"
+                    app:contentPadding="4dp"
+                    android:elevation="2dp"
                     android:outlineAmbientShadowColor="@color/black">
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -100,18 +101,21 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_margin="4dp"
+                            android:textColor="@color/white"
                             android:textSize="15dp"
                             android:text="• Find a flat surface for\n\t placing the objects."/>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_margin="4dp"
+                            android:textColor="@color/white"
                             android:textSize="15dp"
                             android:text="• Keep your internet \n\t connection active."/>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_margin="4dp"
+                            android:textColor="@color/white"
                             android:textSize="15dp"
                             android:text="• Place objects and \n\t enjoy their sound."/>
                     </LinearLayout>
