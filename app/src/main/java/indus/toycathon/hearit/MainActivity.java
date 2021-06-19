@@ -1,5 +1,6 @@
 package indus.toycathon.hearit;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.Toast;
@@ -18,6 +19,8 @@ public class MainActivity extends AppCompatActivity {
         // on AR button clicked
         arBtn.setOnClickListener(view -> {
             Toast.makeText(getApplicationContext(), "AR button clicked.", Toast.LENGTH_SHORT).show();
+            Intent intent1 = new Intent(view.getContext(),ArActivity.class);
+            startActivity(intent1);
         });
 
         //on Lens button clicked
