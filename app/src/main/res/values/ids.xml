@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <item name="startBtn" type="id">startBtn</item>
-    <item name="lensBtn" type="id">lensBtn</item>
-    <item name="arBtn" type="id">arBtn</item>
-</resources>
