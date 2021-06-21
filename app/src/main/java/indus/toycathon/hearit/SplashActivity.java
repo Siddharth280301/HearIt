@@ -23,9 +23,9 @@ public class SplashActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_splash);
 
-        ImageView img = (ImageView)findViewById(R.id.mandalaImg);
-        Animation aniRotate = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.rotation);
-        img.startAnimation(aniRotate);
+//        ImageView img = (ImageView)findViewById(R.id.mandalaImg);
+//        Animation aniRotate = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.rotation);
+//        img.startAnimation(aniRotate);
 
         new Handler().postDelayed(() -> {
             Intent i = new Intent(SplashActivity.this, IntroActivity.class);

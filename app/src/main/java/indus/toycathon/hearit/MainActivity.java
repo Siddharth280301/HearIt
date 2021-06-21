@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void onBackPressed() {
         super.onBackPressed();
-        overridePendingTransition(R.anim.slide_in_up, R.anim.slide_out_up);
+        overridePendingTransition(R.anim.slidein_left,R.anim.slideout_right);
         finish();
     }
 }
