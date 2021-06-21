@@ -13,7 +13,7 @@ public class IntroActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_intro);
 
-        Button startBtn = (Button)findViewById(R.id.startBtn);
+        Button startBtn = findViewById(R.id.startBtn);
         startBtn.setOnClickListener(view -> {
             Intent intent = new Intent(view.getContext(), MainActivity.class);
             startActivity(intent);

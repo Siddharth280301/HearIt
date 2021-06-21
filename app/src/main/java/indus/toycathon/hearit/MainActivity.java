@@ -13,8 +13,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button arBtn = (Button)findViewById(R.id.arBtn);
-        Button lensBtn = (Button)findViewById(R.id.lensBtn);
+        Button arBtn = findViewById(R.id.arBtn);
+        Button lensBtn = findViewById(R.id.lensBtn);
 
         // on AR button clicked
         arBtn.setOnClickListener(view -> {
